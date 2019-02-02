@@ -25,6 +25,8 @@ html {
 }
 
 .container{
+    width: 85%;
+    margin: 0 auto;
     max-width: 1440px;
 }
 
@@ -50,6 +52,6 @@ header nav img{
 
 header nav ul{
     list-style-type: none;
-    
+
 }
 
