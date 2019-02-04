@@ -185,15 +185,15 @@ header nav ul li a:hover{
 
 .aboutInfo{
     background-color:#eae5d6;
-    height:585px;
+    height:585.7px;
     
     
     
 }
 
 .aboutContainer{
-    width: 300px;
-    margin-left:300px;
+    width: 320px;
+    margin-left:280px;
     margin-top:100px;       
 }
 
@@ -201,5 +201,54 @@ header nav ul li a:hover{
     font-family: 'Great Vibes', cursive;
     font-size:40px;
     font-weight:200;
+}
+
+.smallAbout{
+    width:100px;
+    border-radius:50%;
+    float:left;
+    margin-right:10px;
+}
+
+.aboutAvatar h3{
+    padding-top:30px;    
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0px;
+    font-weight:400;
+}
+
+.aboutContainer h5{
+    margin-top:5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:200;
+}
+
+.aboutContainer p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.aboutContainer i{
+    margin:0 10px;
+    color:grey;
+}
+
+.aboutContainer a:hover i{
+    color:orangered;
+}
+
+.light{
+    font-weight: 100;
+}
+
+.grey{
+    color:grey;
+}
+
+.doubleLine{
+    line-height: 1.5rem;
+}
+
+.italic{
+    font-style:italic;
 }
 
