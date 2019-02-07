@@ -297,3 +297,35 @@ header nav ul li a:hover{
 .gallery.top ul li a:hover{
     color:orangered;
 }
+
+.gridGallery{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.gridItem{
+    position:relative;
+}
+
+.gridItem img{
+    width: 100%;
+    height:200px;
+    z-index:1;
+}
+
+.gridText{
+    color:white;
+}
+
+.gridHover{
+ position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.gridLinks{
+    transform:traonslate(50px,50px);
+}
