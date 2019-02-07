@@ -317,6 +317,16 @@ header nav ul li a:hover{
 
 .gridText{
     color:white;
+    visibility: hidden;
+}
+
+.gridText h2{
+    font-family: 'Playfair Display', serif;
+}
+
+.gridText h5{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 .gridHover{
@@ -327,5 +337,72 @@ header nav ul li a:hover{
 }
 
 .gridLinks{
-    transform:traonslate(50px,50px);
+    position: absolute;
+    bottom:0%;
+    left:0%;
+    transform:translate(0,50px);
+
 }
+
+.gridLinks i{
+    background-color: #eae5d6;
+    padding:10px;
+    margin:0;
+    color:orangered;
+    visibility: hidden;
+}
+
+.gridItem:hover i, .gridItem:hover .gridText{
+    visibility: visible;
+}
+
+.servicesTop{
+    margin: 40px auto;
+    width:600px;
+    text-align: center;
+}
+
+.servicesTop h1{
+    font-family: 'Great Vibes', cursive;
+    font-weight:100;
+    font-size:40px;
+}
+
+.servicesTop p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size:13px;
+    color:GREY;
+}
+
+.servicesGrid{
+    margin: 0 auto;
+    width:800px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
+    grid-column-gap: 20px;
+}
+
+.servicesGridCell{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.servicesGridCell h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+
+}
+
+.servicesGridCell p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:12px;
+    line-height: 1.4rem;
+
+}
+
+.servicesGridCell img{
+    height: 80px;
+    width:auto;
+}
+
