@@ -379,7 +379,7 @@ header nav ul li a:hover{
     margin: 0 auto;
     width:800px;
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 20px;
 }
 
@@ -405,4 +405,111 @@ header nav ul li a:hover{
     height: 80px;
     width:auto;
 }
+
+.menu{
+    width:100%;
+    background:rgba(0, 0, 0, .65) url("images/image-13-2.jpg");
+    background-blend-mode:darken;
+    color:white;
+}
+
+.menuList{
+    width:400px;
+    list-style:none;
+    margin: 0 0 2rem;
+    padding-left: 20px;
+    display: inline-block;
+
+}
+
+.menuList li{
+    clear: both;
+    margin: 0;
+    padding: 0 0 5px 0;
+    position: relative;
+    border-bottom: dotted 2px #999;
+
+}
+
+.left{
+    padding: 0 10px 0 0;
+    font-weight: normal;
+    position: absolute;
+    bottom: -.3em;
+    left: 0;
+}
+
+.right{
+    padding: 0 0 0 5px;
+    position: absolute;
+    bottom: -.2em;
+    right: 0;
+}
+
+.menu h1{
+    font-family: 'Great Vibes', cursive;
+    font-weight:100;
+    font-size:40px;
+    text-align:center;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+.menuLists{
+    margin: 0 auto;
+    width: 840px;
+    padding-bottom:100px;
+}
+
+.menuList h3{
+    font-family: 'Playfair Display', serif;
+    font-weight:100;
+
+}
+
+.menuList p{
+    font-family: 'Open Sans', sans-serif;
+    font-style:italic;
+    font-size:12px;
+}
+
+.menuLink {
+    margin: 0 auto;
+    text-align: center;
+    text-transform:uppercase;
+    font-family: 'Open Sans', sans-serif;
+    background-color:orangered;
+    width:180px;
+    padding:20px 10px;
+    font-size:10px;
+}
+
+.contact{
+    width: 100%;
+    background:url('images/Icons/map.png'), linear-gradient(
+        rgba(0,0,0,1),
+        rgba(0,0,0,1)
+
+    );
+    background-repeat:no-repeat;
+    height:80vh;
+    background-position: top;
+    background-size:contain;
+
+}
+
+.leftContact, .rightContact{
+    width:35%;
+    display:inline-block;
+}
+
+.centerContact{
+    width:29%;
+    display:inline-block;
+}
+
+.centerContact form{
+    background-color:white;
+}
+
 
